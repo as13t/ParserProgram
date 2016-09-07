@@ -11,7 +11,7 @@ public class MainParser
 	public static void main(String[] args) 
 	{
 		// TODO Auto-generated method stub
-		ParseText pText = new ParseText();
+/*		ParseText pText = new ParseText();
 		
 		Scanner input = new Scanner(System.in);
 		String delim = "\\s";
@@ -21,7 +21,10 @@ public class MainParser
 		phrase = input.nextLine();
 		
 		pText.setPhrase(phrase, delim);
-		pText.parsePhrase();
+		pText.parsePhrase();*/
+		
+		MainGui mGui = new MainGui();
+		mGui.createFrame();
 	}
 
 }
