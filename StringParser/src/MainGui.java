@@ -65,8 +65,8 @@ public class MainGui
 		
 		mFrame.add(mPanel);
 		mPanel.add(inputText);
-		mPanel.add(clearText);
 		mPanel.add(exitParse);
+		mPanel.add(clearText);
 		mPanel.add(parseText);
 		
 		
