@@ -119,6 +119,7 @@ public class MainGui
 		mPanel.add(clearText);
 		mPanel.add(parseText);
 		
+		//This adds a the option to import a file
 		mFrame.add(importPanel);
 		importPanel.add(fLocation);
 		importPanel.add(fileButton);
